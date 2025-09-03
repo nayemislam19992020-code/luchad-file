@@ -1,0 +1,724 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+font-family: "Source Sans 3", sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: "Source Sans 3", sans-serif;
+}
+a, a:hover{
+text-decoration: none;
+}
+/********************************
+* Lucid  css start code here
+*
+* *************************************/
+.topheader{
+  width: 100%;
+  padding: 15px 0px 0px;
+  background: #08c;
+}
+.header{
+width: 100%;
+background: url("../images/banner1.jpg") center top no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.header .navbar-wrapper{
+  margin-top: 0px;
+  position: relative;
+  z-index: `15;
+}
+.header .isStuck{
+  left: 0px;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+}
+.main-menu{
+width: 100%;
+}
+.main-menu .bg-light {
+background: transparent !important;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+color: #fff !important;  
+font-size: 14px;
+text-transform: capitalize;
+margin: 0px 0px 0px 20px;
+position: relative;
+padding-bottom: 8px;
+transition: color 0.3s ease-in-out;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link:hover {
+color: #008ed6 !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover::after,
+.main-menu .navbar-light .navbar-nav .nav-link.active::after {
+content: "";
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 20px;
+height: 10px;
+background: url("../images/arrow.png") no-repeat center;
+background-size: contain;
+}
+
+.navbar {
+padding-left: 0;
+padding-right: 0;
+}
+.navbar-brand {
+display: flex;
+align-items: center;
+}
+.navbar-brand img {
+height: 50px; /* তোমার ডিজাইন অনুযায়ী */
+width: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+color: #fff;
+font-size: 14px;
+text-transform: capitalize;
+margin: 0px 0px 0px 20px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover::after,
+.main-menu .navbar-light .navbar-nav .nav-link.active::after {
+content: "";
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 20px;
+height: 10px;
+background: url("../images/arrow.png") no-repeat center;
+background-size: contain;
+}
+.navbar-light .navbar-toggler{
+  color: #fff;
+  border-color:#fff ;
+}
+.banner{
+width: 100%;
+padding: 120px 0px;
+}
+.banner h5{
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #008ed6;
+}
+.banner h1{
+font-size: 52px;
+font-weight: 600;
+line-height: 62px;
+letter-spacing: 2px;
+color: #fff;
+margin: 10px 0px;
+}
+.banner p{
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 2px;
+color: #7f7f7f;
+}
+.button-group{
+width: 100%;
+padding: 10px 0px 0px;
+}
+.button-group .btn-primary {
+padding: 15px 25px;
+margin: 0px 10px 0px 0px;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 600;
+color: #fff;
+background: #008ed6;
+border: 1px solid #008ed6;
+transition: all 0.3s ease-in-out;
+}
+.button-group .btn-primary:hover,
+.button-group .btn-primary:focus {
+color: #008ed6;
+background: transparent;
+border: 1px solid #008ed6;
+}
+.button-group .btn-light{
+padding: 15px 25px;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 600;
+color: #fff;
+background: transparent;
+border: 1px solid #7f7f7f;
+transition: all 0.3s ease-in-out;
+}
+.button-group .btn-primary:hover,
+.button-group .btn-primary:focus {
+color: #008ed6;
+background: transparent;
+border: 1px solid #008ed6;
+}
+.button-group .btn-light:hover,
+.button-group .btn-light:focus {
+color: #fff;
+background: #008ed6;
+border: 1px solid #008ed6;
+}
+/********************************
+* golbal css for titel
+*
+* *************************************/
+.titel{
+width: 100%;
+padding: 0px 0px 60px;
+}
+/* দুটোই একসাথে ধরবে */
+.titel h5,
+.title h5 {
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #008ed6; /* এখানেই রঙ সেট করুন */
+}
+.titel h2{
+font-size: 42px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 2px;
+color:#000 ;
+margin: 10px 0px 15px;
+}
+/********************************
+* golbal css  end for titel
+*
+* *************************************/
+/********************************
+* features start css for titel
+*
+* *************************************/
+.Features{
+width: 100%;
+padding: 80px 0px;
+}
+.Features .titel{
+text-align: center;
+margin-top: 20px;
+}
+.Features .titel img {
+width: 50px;   /* এখানে সাইজ কমাও */
+height: auto;  /* অনুপাতে height auto রাখো */
+margin-top: 10px; /* চাইলে একটু gap দিতে পারো */
+}
+.inner-feature img{
+width: 50px;
+height: auto;
+margin-top: 10px;
+}
+.inner-feature{
+width: 100%;
+padding: 20px 50px;
+text-align: center;
+}
+.inner-feature .icons{
+width: 100px;
+height: 100px;
+margin: 0px auto 20px;
+line-height: 100px;
+border-radius: 100px;
+border: 1px solid #eee;
+}
+.inner-feature h4{
+font-size: 22px;
+font-weight: 600;
+line-height: 32px;
+text-transform: capitalize;
+color: #008ed6;
+}
+.inner-feature p{
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+color: #b4b4b4;
+}
+.about ul {
+list-style: none;
+padding: 15px 0px 0px;
+display: block;
+border-top: 1px solid #eee;
+}
+.about .title img {
+width: 40px;   /* এখানে আপনার পছন্দ মতো সাইজ দিন */
+height: auto;  /* height auto রাখলে অনুপাত ঠিক থাকবে */
+margin-top: 10px; /* চাইলে একটু gap দিতে পারেন */
+}
+.about ul li img {
+width: 24px;
+height: 24px;
+margin-right: 10px;
+}
+.about ul li {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+}
+.about .title{
+width: 100%;
+padding: 0px 0px 10px;
+margin: 55px 0px 0px;
+}
+.about .titel h2{
+font-weight: 600;
+}
+.about  p{
+width: 67%;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+color: #7f7f7f;
+}
+.about-sort ul {
+list-style: none;
+padding: 15px 0px 0px;
+display: block;
+border-top: 1px solid #eee;
+}
+.about-sort .col-lg-7 img {
+width: 70%;   /* আপনার ইচ্ছামতো (যেমন 70%, 80% বা নির্দিষ্ট px) */
+max-width: 445px; /* চাইলে সর্বোচ্চ সীমা দিতে পারেন */
+height: auto;  /* অনুপাত ঠিক রাখবে */
+margin: 40px;
+}
+.about-sort .title img {
+width: 40px;
+height: auto;
+margin-top: 10px;
+}
+.about-sort .col-lg-7 {
+text-align: right;
+}
+.about-sort .title{
+width: 100%;
+padding: 0px 0px 10px;
+margin: 75px 0px 0px;
+}
+.about-sort .titel h6{
+font-size: 38px;
+font-weight: 400;
+line-height: 48px;
+color: #008ed6;
+margin: 10px 0px 15px;
+}
+.about-sort  p{
+width: 80%;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+color:  #b4b4b4;
+}
+.testimonials {
+  width: 100%;
+  padding: 80px 0px;
+  min-height: 400px;
+  background: url("../images/img4.jpg") center center / cover no-repeat;
+  position: relative;
+    }
+    .testimonials .titel {
+      text-align: center;
+    }
+    .testimonials .titel h2 {
+      color: #fff;
+    }
+    .testimonials .titel img {
+      width: 40px;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+    }
+    .testimonials .owl-carousel .item .row {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+   .testimonials .owl-carousel .item p {
+  font-size: 16px;
+  color: #ddd !important;   /* হালকা ধূসর */
+  text-transform: capitalize;
+  margin: 0 0 5px;
+}
+
+.testimonials .owl-carousel .item h6 {
+  font-size: 18px;
+  color: #f5c542;           /* হালকা হলুদ */
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+    .testimonials .owl-carousel .item p,
+.testimonials .owl-carousel .item h6 {
+  color: #008ed6;;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+    .testimonials .owl-carousel .item img {
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+      margin-right: 20px;
+    }
+    .testimonials .owl-carousel .item h6 {
+      font-size: 18px;
+      color: #fff;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .testimonials .owl-theme .owl-dots {
+      margin: 50px 0 0 !important;
+    }
+.eye-catcher{
+width: 100%;
+padding: 40px 0px;
+background: #15141a;
+margin: 10px;
+}
+.eye-catcher h4{
+font-size: 36px;
+line-height: 46px;
+color: #fff;
+font-weight: 300;
+margin: 0px;
+}
+.eye-catcher h4 span{
+font-weight: 700;
+}
+.eye-catcher .button-group{
+margin: 0px;
+text-align: right;
+}
+.eye-catcher .button-group .btn-primary{
+margin: 0px;
+}
+.eye-catcher .button-group .btn-light{
+margin: 0px 25px 0px 0px;
+}
+.price-plan{
+width: 100;
+padding: 80px 0px;
+}
+.price-plan img{
+width: 50px;
+height: auto;
+margin-top: 10px;
+}
+.price-plan .titel{
+text-align: center;
+}
+.price{
+width: 100%;
+border: 1px solid #e0e0e0;
+text-align: center;
+transition: 1s;
+margin: 20px 0px 0px;
+}
+.price .price-head{
+width: 100%;
+padding: 20px 0px;
+border-bottom: 1px solid #e0e0e0;
+}
+.price .price-head h4{
+font-size: 22px ;
+line-height: 32px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 700;
+color: #000;
+margin: 0px;
+}
+.price .inner-price{
+width: 100%;
+padding: 45px 0px;
+border-bottom: 1px solid #e0e0e0;
+}
+.price .inner-price sup{
+font-weight: 400;
+font-size: 28px;
+}
+.price .inner-price h1{
+font-size: 52px;
+line-height: 62px;
+margin: 0px;
+font-weight: 700;
+color: #000;
+}
+.price .inner-price p{
+font-size: 16px;
+color: #999;
+margin: -5px 0px 0px;
+}
+.price .price-content{
+width: 100%;
+}
+.price .price-content p{
+font-size: 16px;
+color: #999;
+line-height: 26px;
+margin: 0px 0px 50px;
+}
+.price .price-content a{
+font-size: 16px;
+color: #08bed6;
+line-height: 26px;
+font-weight: 700;
+}
+.price .price-content .btn-primary{
+padding: 10px 25px;
+background: transparent;
+border: 1px solid #08bed6;
+color: #08bed6;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.price:hover .price-head h4{
+color: #08bed6;
+transition: 1s;
+}
+.price:hover .inner-price{
+background:  #08bed6;
+transition: 1s;
+}
+.price:hover .inner-price h1, .price:hover .inner-price p{
+color: #fff;
+transition: 1s;
+}
+.price:hover .price-content .btn-primary{
+background: #08bed6;
+border: 1px solid #08bed6;
+color: #fff;
+transition: 1s;
+}
+.contact{
+width: 100%;
+padding: 80px 0px 0px;
+background: #ededed;
+}
+.contact img{
+width: 50px;
+height: auto;
+margin-top: 10px;
+}
+.titele img {
+width: 50px;
+height: auto;
+margin-top: 15px;      /* উপরে থেকে ফাঁকা */
+margin-bottom: 15px;   /* নিচে থেকেও ফাঁকা */
+}
+.contact {
+text-align: center;
+position: relative;
+}
+.contact .titel h5 {
+color: #blue;
+}
+.contact .row {
+display: flex;
+align-items: stretch;  /* n কলাম সমান height হবে */
+}
+.info-box {
+background: #fff;       /* চাইলে ব্যাকগ্রাউন্ড দাও */
+padding: 20px;
+text-align: center;
+height: 100%;           /* সমান height */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.info-box img{
+margin: 0px 0px 30px;
+}
+.info-box p{
+font-size: 16px;
+line-height: 26px;
+color: #999;
+}
+.main-from {
+width: 100%;
+padding: 60px 75px;
+background: #15141a;
+border-radius: 8px;
+position: relative;
+margin: 50px 0px -75px;
+z-index: 1;
+}
+.main-from .form-control {
+padding: 15px;
+background: transparent;
+border: 1px solid #999;
+color: #999;
+}
+.main-from .form-control:hover,
+.main-from .form-control:focus {
+border: 1px solid #fff;
+box-shadow: 0 0 5px #999;
+outline: none;
+}
+.main-from button {
+float: right;
+}
+.main-from .btn-primary {
+padding: 15px 35px;
+margin: 10px 0px 0px;
+background: #08bed6;
+border: 1px solid #08bed6;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.main-from .btn-primary:hover, .main-from .btn-primary:focus{
+  background: transparent;
+border: 1px solid #08bed6;
+color: #08bed6;
+transition: 1s;
+}
+.map{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.fun-facts {
+  width: 100%;
+  padding: 80px 0px;
+}
+.number-box {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #08c;
+  border-radius: 5px;
+}
+.number-box .fa {
+  font-size: 120px;
+  color: #08c;
+}
+.number-box h1 {
+  font-size: 88px;
+  line-height: 98px;
+  font-weight: 300;
+  color: #08c;
+}
+.number-box h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+
+/********************************
+* golbal css end for titel
+*
+* *************************************/
+
+/* responsive css start code here */
+
+@media (min-width: 279px) and (max-width: 319px){
+
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+  .main-menu .navbar-light .navbar-nav .nav-link.active {
+color: #fff !important;  
+font-size: 14px;
+text-transform: capitalize;
+margin: 0px 0px 0px 20px;
+position: relative;
+padding-bottom: 8px;
+transition: color 0.3s ease-in-out;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link:hover::after,
+.main-menu .navbar-light .navbar-nav .nav-link.active::after {
+content: "";
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+width: 20px;
+height: 10px;
+background: url("../images/arrow.png")  letf no-repeat center;
+background-size: contain;
+}
+  .banner{
+    padding: 60px 0px;
+  }
+  .banner h5{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .banner h1{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .banner p{
+    font-size: 12px;
+    line-height: 22px;
+  }
+   .button-group{
+    padding: 20px 0px 0px;
+   }
+  .button-group .btn-primary{
+    padding: 12px 15px;
+    margin: 0px 10px 0px 0px;
+    font-size: 12px;
+  }
+  .button-group .btn-light{
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .title h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0px;
+  }
+  .title h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 5px;
+  }
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+  
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  
+} 
+
+
+
+/* responsive css end code here */
+
+
